@@ -4,7 +4,7 @@ canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
 const ctx = canvas.getContext('2d');
 const dots = [];
-const arrayColors = ['red', 'red', 'red', 'red', 'red'];
+const arrayColors = ['#eee', '#545454', '#596d91', '#bb5a68', '#696541'];
 for (let index = 0; index < 50; index++) {
     dots.push({
         x: Math.floor(Math.random() * canvas.width),

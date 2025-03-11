@@ -1,11 +1,11 @@
 body {
-    background-color: black;
-    font-family: poppins;
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     background-image:
-        repeating-linear-gradient(to right, #2d2a44 0 1px, transparent 2px 200px),
-        repeating-linear-gradient(to bottom, #2d2a44 0 1px, transparent 2 px 200px),
-        radial-gradient(at 50% 50%, #2d2a44, #1d1b34);
+        repeating-linear-gradient(to right, #151130 0 1px, transparent 1px 200px),
+        repeating-linear-gradient(to bottom, #423a79 0 1px, transparent 1px 200px),
+        radial-gradient(at 50% 50%, #2d2a44, #17152c);
 }
 
 ::-webkit-scrollbar {
